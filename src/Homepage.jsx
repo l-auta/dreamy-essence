@@ -1,11 +1,39 @@
 import React from "react";
+import './App.css';
+
+function Navbar() {
+    return (
+        <nav className="bg-white shadow">
+            <div className="max-w-7xl  px-4 sm:px-6 lg:px-8"> {/* for the sake of media responsiveness */}
+                <div className="flex items-center justify-between h-16"> {/* the layout of the navbar*/}
+                    <div className="flex items-center">
+                        <img
+                            className="h-16 md:w-18"
+                            src="src/assets/cafe Logos-2-Design_two.png"
+                            alt="Dreamy Essence Logo"
+                        />
+                        </div>
+                   
+                        <div className="flex space-x-3 md:space-x-9 md:text-3xl font-medium">
+                            <span className="primary-col">Home</span>
+                            <span className="primary-col">About</span>
+                            <span className="primary-col">Services</span>
+                            <span className="primary-col">Contact</span>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    );
+}
 
 function Homepage() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold">🌸 Welcome to the Homepage 🌸</h1>
-      <p className="mt-4">This is the main content area. </p>
+    <>
+    <Navbar />
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <p className="text-2xl mt-4">This is the main content area. </p>
     </div>
+    </>
   );
 }
 
