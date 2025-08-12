@@ -4,11 +4,11 @@ import './App.css';
 function Navbar() {
     return (
         <nav className="bg-white shadow">
-            <div className="max-w-7xl  px-4 sm:px-6 lg:px-8"> {/* for the sake of media responsiveness */}
+            <div className="px-4 sm:px-6 lg:px-8"> {/* for the sake of media responsiveness .....(was there initially causing the nav to be halfway) max-w-7xl*/}
                 <div className="flex items-center justify-between h-16"> {/* the layout of the navbar*/}
                     <div className="flex items-center">
                         <img
-                            className="h-16 md:w-18"
+                            className="h-16 sm:w-18"
                             src="src/assets/cafe Logos-2-Design_two.png"
                             alt="Dreamy Essence Logo"
                         />
