@@ -14,8 +14,8 @@ function Navbar() {
                         />
                         </div>
                    
-                        <div className="flex space-x-3 md:space-x-9 md:text-3xl font-medium">
-                            <span className="primary-col">Home</span>
+                        <div className="flex space-x-3 md:space-x-9 md:text-3xl font-medium ">
+                            <span className="primary-col ">Home</span>
                             <span className="primary-col">About</span>
                             <span className="primary-col">Services</span>
                             <span className="primary-col">Contact</span>
