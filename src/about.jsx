@@ -5,7 +5,7 @@ function WhyUs() {
     return(
         <>
             <div>
-                <h2 className=" m-10 text-center text-3xl font-bold text-amber-900">Why Choose Us? <span class="material-symbols-outlined ">check_circle</span></h2>
+                <h2 className=" sm:m-10 m-5 text-center text-3xl font-bold text-amber-900">Why Choose Us? <span class="material-symbols-outlined ">check_circle</span></h2>
                 <div className="flex flex-col  sm:flex-row justify-around items-center gap-x-5 sm:divide-x-2 text-amber-900">
                     <div className="flex flex-col items-center p-4 text-center">
                         <span class="material-symbols-outlined">sunny</span>
