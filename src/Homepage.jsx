@@ -15,10 +15,10 @@ function Navbar() {
                         </div>
                    
                         <div className="flex space-x-3 md:space-x-9 md:text-3xl font-medium ">
-                            <span className="primary-col ">Home</span>
-                            <span className="primary-col">About</span>
-                            <span className="primary-col">Services</span>
-                            <span className="primary-col">Contact</span>
+                            <span className="text-amber-900">Home</span>
+                            <span className="text-amber-900">About</span>
+                            <span className="text-amber-900">Services</span>
+                            <span className="text-amber-900">Contact</span>
                         </div>
                 </div>
             </div>
@@ -31,28 +31,26 @@ function Homepage() {
     <>
     <Navbar />
     <div class="relative h-140 overflow-hidden">
-    <img 
-    src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
-    alt="Background"
-    class="absolute inset-0 w-full h-full object-cover blur-md"
-    />
+        <img 
+            src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
+            alt="Background"
+            class="absolute inset-0 w-full h-full object-cover blur-md"
+        />
   
- 
-  <div class="absolute inset-0 bg-black/20"></div>
-  
- 
-  <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center text-white p-4">
-    <h2 class="text-8xl font-bold">
-        Sip. <span class="primary-col">Savor.</span> Stay a while.
-    </h2>
-    <p class="text-xl text-center">
-        Dreamy essence is your cozy hideaway for calm moments and sweet treats.
-    </p>
-    <button class="mt-4 px-4 py-2 bg-white text-black rounded-lg">
-      See what's brewing
-    </button>
-  </div>
-</div>
+        <div class="absolute inset-0 bg-black/20"></div>
+
+        <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center p-4">
+            <h2 class="text-8xl mt-2 font-bold text-white">
+                Sip. <span class="text-red-200">Savor.</span> Stay a while.
+            </h2>
+            <p class="text-xl mt-3 text-center text-white">
+                Dreamy essence is your cozy hideaway for calm moments and sweet treats.
+            </p>
+            <button class="mt-4 px-4 py-2 bg-red-200 text-black rounded-lg">
+                See what's brewing
+            </button>
+        </div>
+    </div>
     </>
   );
 }

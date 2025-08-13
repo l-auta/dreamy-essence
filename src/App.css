@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 .primary-col{
+  color: #694343;
+}
+
+.secondary-col{
   color: #6e4343;
+}
+
+.pink-col{
+  color: #e1acac;
 }
