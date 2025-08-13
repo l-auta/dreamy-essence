@@ -16,9 +16,9 @@ function Navbar() {
                    
                         <div className="flex space-x-3 md:space-x-9 md:text-3xl font-medium ">
                             <span className="text-amber-900">Home</span>
-                            <span className="text-amber-900">About</span>
-                            <span className="text-amber-900">Services</span>
-                            <span className="text-amber-900">Contact</span>
+                            <span className="text-amber-900">Our way</span>
+                            <span className="text-amber-900">Highlights</span>
+                            <span className="text-amber-900">Drop-in</span>
                         </div>
                 </div>
             </div>
