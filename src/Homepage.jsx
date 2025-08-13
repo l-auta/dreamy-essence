@@ -30,9 +30,29 @@ function Homepage() {
   return (
     <>
     <Navbar />
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <p className="text-2xl mt-4">This is the main content area. </p>
-    </div>
+    <div class="relative h-150 overflow-hidden">
+    <img 
+    src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
+    alt="Background"
+    class="absolute inset-0 w-full h-full object-cover blur-md"
+    />
+  
+ 
+  <div class="absolute inset-0 bg-black/20"></div>
+  
+ 
+  <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center text-white p-4">
+    <h2 class="text-7xl font-bold">
+        Sip. <span class="primary-col">Savor.</span> Stay a while.
+    </h2>
+    <p class=" text-center">
+        Your content stays perfectly sharp on top
+    </p>
+    <button class="mt-4 px-4 py-2 bg-white text-black rounded-lg">
+      See what's brewing
+    </button>
+  </div>
+</div>
     </>
   );
 }
