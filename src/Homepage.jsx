@@ -30,7 +30,7 @@ function Homepage() {
   return (
     <>
     <Navbar />
-    <div class="relative h-150 overflow-hidden">
+    <div class="relative h-140 overflow-hidden">
     <img 
     src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
     alt="Background"
@@ -42,11 +42,11 @@ function Homepage() {
   
  
   <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center text-white p-4">
-    <h2 class="text-7xl font-bold">
+    <h2 class="text-8xl font-bold">
         Sip. <span class="primary-col">Savor.</span> Stay a while.
     </h2>
-    <p class=" text-center">
-        Your content stays perfectly sharp on top
+    <p class="text-xl text-center">
+        Dreamy essence is your cozy hideaway for calm moments and sweet treats.
     </p>
     <button class="mt-4 px-4 py-2 bg-white text-black rounded-lg">
       See what's brewing
