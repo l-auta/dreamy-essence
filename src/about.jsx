@@ -31,7 +31,7 @@ function WhyUs() {
 function OurWay() {
     return(
         <>
-            <div className="md:mt-30 md:mb-10 my-5">
+            <div className="md:mt-30 md:mb-10 my-5 text-amber-900 ">
                 <div className="sm:flex hidden items-center justify-between gap-5 md:gap-30 m-5 py-3">
                     <p className="md:text-xl">Dreamy Essence is a quiet little café with a big love for calm moments. We’ve kept our space intentionally clean and cozy — white walls, soft tones, and natural textures that let your thoughts settle. It is a place where you can come as you are, and just be.</p>
                     <img className="md:w-150 w-70 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />

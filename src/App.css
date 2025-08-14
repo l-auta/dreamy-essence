@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+htmls {
+  scroll-behavior: smooth;
+}
 .primary-col{
   color: #694343;
 }
