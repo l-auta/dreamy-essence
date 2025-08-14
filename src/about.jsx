@@ -4,7 +4,7 @@ import React from "react";
 function WhyUs() {
     return(
         <>
-            <div className="py-4">
+            <div className="sm:py-4 sm:bg-rose-100">
                 <h2 className=" sm:m-10 m-5 text-center text-3xl font-bold text-amber-900">Why Choose Us? <span class="material-symbols-outlined ">check_circle</span></h2>
                 <div className="flex flex-col  sm:flex-row justify-around items-center gap-x-5 md:divide-x-2 text-amber-900">
                     <div className="flex flex-col items-center p-4 text-center">
@@ -31,12 +31,12 @@ function WhyUs() {
 function OurWay() {
     return(
         <>
-            <div >
-                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-30 md:m-10 m-5 py-3">
+            <div className="md:mt-30 md:mb-10 my-5">
+                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-30 m-5 py-3">
                     <p className="md:text-xl">Dreamy Essence is a quiet little café with a big love for calm moments. We’ve kept our space intentionally clean and cozy — white walls, soft tones, and natural textures that let your thoughts settle. It is a place where you can come as you are, and just be.</p>
                     <img className="md:w-150 w-70 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
                 </div>
-                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-20 md:m-10 m-5 py-4">
+                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-20 m-5 py-4">
                     <img className="md:w-150 w-70 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_A_single_wooden_table_in_a_cozy_white_cafe_wi_3.jpg" alt="serving-pic" /> 
                     <p className="md:text-xl p-4">Our menu is small, but thoughtful — every drink and treat made with care. No noise, no rush. Just comfort, good coffee, and a warm hello behind the counter. We hope you leave feeling lighter than when you came in.</p>
                 </div>
