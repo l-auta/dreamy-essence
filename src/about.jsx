@@ -23,8 +23,6 @@ function WhyUs() {
                         <p>We use only the freshest, highest-quality ingredients in our drinks and snacks.</p>
                     </div>
                 </div>
-                <br />
-                <p>We offer the best coffee in town, made from the finest beans.</p>
             </div>
         </>
     )
@@ -35,7 +33,14 @@ function OurWay() {
         <>
           <WhyUs />
             <div>
-                <h1>Hellowww</h1>
+                <div className="flex items-center justify-between gap-5 sm:gap-20 m-5">
+                    <img className="sm:w-160 w-80 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_A_single_wooden_table_in_a_cozy_white_cafe_wi_3.jpg" alt="serving-pic" /> 
+                    <p className="sm:text-xl">Our menu is small, but thoughtful — every drink and treat made with care. No noise, no rush. Just comfort, good coffee, and a warm hello behind the counter. We hope you leave feeling lighter than when you came in.</p> 
+                </div>
+                <div className="flex items-center justify-between gap-5 sm:gap-20 m-5">
+                    <p className="sm:text-xl">Dreamy Essence is a quiet little café with a big love for calm moments. We’ve kept our space intentionally clean and cozy — white walls, soft tones, and natural textures that let your thoughts settle. It’s a place where you can come as you are, and just be.</p>
+                    <img className="sm:w-160 w-80 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
+                </div>
             </div>
             
         </>
