@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-htmls {
+html {
   scroll-behavior: smooth;
 }
 .primary-col{
@@ -13,4 +13,12 @@ htmls {
 
 .pink-col{
   color: #e1acac;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
 }
