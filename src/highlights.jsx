@@ -18,8 +18,8 @@ function Highlights() {
 
                     <div className="snap-center flex flex-col items-center p-4 shadow-sm sm:w-100 w-70 rounded-lg">
                         <img 
-                            src="src/assets/images/latte.jpg" 
-                            alt="Latte" 
+                            src="src/assets/images/strawberry_cake.jpg" 
+                            alt="Strawberry shortcake" 
                             className="sm:w-70 w-50 object-cover rounded-3xl"
                         /> 
                         <h3 className="text-2xl font-semibold text-amber-900 mt-3">Strawberry shortcake</h3>
@@ -28,8 +28,8 @@ function Highlights() {
 
                     <div className="snap-center flex flex-col items-center p-4 shadow-sm sm:w-100 w-70 rounded-lg">
                         <img 
-                            src="src/assets/images/latte.jpg" 
-                            alt="Latte" 
+                            src="src/assets/images/hot_chocolate.jpg" 
+                            alt="Hot chocolate" 
                             className="sm:w-70 w-50 object-cover rounded-3xl"
                         /> 
                         <h3 className="text-2xl font-semibold text-amber-900 mt-3">Hot chocolate</h3>
@@ -38,8 +38,8 @@ function Highlights() {
 
                     <div className="snap-center flex flex-col items-center p-4 shadow-sm sm:w-100 w-70 rounded-lg">
                         <img 
-                            src="src/assets/images/latte.jpg" 
-                            alt="Latte" 
+                            src="src/assets/images/macaroons.jpg" 
+                            alt="Pastel macaroons" 
                             className="sm:w-70 w-50 object-cover rounded-3xl"
                         /> 
                         <h3 className="text-2xl font-semibold text-amber-900 mt-3">Pastel macaroons</h3>
@@ -48,8 +48,8 @@ function Highlights() {
 
                     <div className="snap-center flex flex-col items-center p-4 shadow-sm sm:w-100 w-70 rounded-lg">
                         <img 
-                            src="src/assets/images/latte.jpg" 
-                            alt="Latte" 
+                            src="src/assets/images/matcha_latte.jpg" 
+                            alt="Iced matcha latte" 
                             className="sm:w-70 w-50 object-cover rounded-3xl"
                         /> 
                         <h3 className="text-2xl font-semibold text-amber-900 mt-3">Iced matcha latte</h3>
