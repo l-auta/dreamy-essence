@@ -46,9 +46,9 @@ function Homepage() {
             <p class="sm:text-xl mt-3 text-center text-white">
                 Dreamy essence is your cozy hideaway for calm moments and sweet treats.
             </p>
-            <button class="mt-4 px-4 py-2 bg-red-200 text-black rounded-lg">
+            <a href="#highlights" class="mt-4 px-4 py-2 bg-red-200 active:bg-red-100 text-black rounded-lg">
                 See what's brewing
-            </button>
+            </a>
         </div>
     </div>
     </div>
