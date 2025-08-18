@@ -30,7 +30,7 @@ function Homepage() {
   return (
     <div id="home">
     <Navbar />
-    <div class="relative sm:h-160 h-100 overflow-hidden">
+    <div class="relative sm:h-160 h-100 overflow-hidden select-none">
         <img 
             src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
             alt="Background"

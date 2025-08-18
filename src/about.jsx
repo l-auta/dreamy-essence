@@ -30,7 +30,7 @@ function WhyUs() {
 
 function OurWay() {
     return(
-        <div id="our-way" className="my-20">
+        <div id="our-way" className="my-20 select-none">
             <div className="hidden sm:block md:mt-20 md:mb-15 my-5 px-5 text-amber-900 ">
                 <img className="md:w-160 w-70 m-5 rounded-lg float-right" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
                 <p className="hidden lg:block md:text-xl p-5 m-5">

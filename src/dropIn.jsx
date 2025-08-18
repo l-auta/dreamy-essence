@@ -2,7 +2,7 @@ import React from "react";
 
 function Note (){
     return (
-        <div class="max-w-5xl mx-auto my-19 px-4 relative">
+        <div class="max-w-5xl mx-auto my-19 px-4 relative select-none">
             <div class="relative flex items-center justify-center my-8">
                 <div class="flex-grow border-t border-amber-900"></div>
                     <span class="flex-shrink mx-4 text-3xl">☁️</span>
@@ -29,7 +29,7 @@ function DropIn() {
                         <h2 className="text-2xl font-bold text-amber-900 mb-4">Location</h2>
                         <p className="text-amber-900">📍 12 Garden Lane, Westview, Nairobi</p>
                     </div>
-                    <div>
+                    <div className="select-none">
                         <h2 className="text-2xl font-bold text-amber-900 mb-4">Opening Hours</h2>
                         <p className="text-amber-900 mt-4">🕰️ Mon–Fri: 8AM – 6PM</p>
                         <p className="text-amber-900 mt-4">🌸 Sat–Sun: 9AM – 4PM</p>
