@@ -15,10 +15,10 @@ function Navbar() {
                         </div>
                    
                         <div className="flex space-x-3 md:space-x-6 md:text-xl font-medium">
-                            <a href="#home" className="text-amber-900 active:text-red-200">Home</a>
-                            <a href="#our-way" className="text-amber-900 active:text-red-200">Our way</a>
-                            <a href="#highlights" className="text-amber-900 active:text-red-200">Highlights</a>
-                            <a href="#drop-in" className="text-amber-900 active:text-red-200">Drop-in</a>
+                            <a href="#home" className="text-amber-900 active:text-amber-700">Home</a>
+                            <a href="#our-way" className="text-amber-900 active:text-amber-700">Our way</a>
+                            <a href="#highlights" className="text-amber-900 active:text-amber-700">Highlights</a>
+                            <a href="#drop-in" className="text-amber-900 active:text-amber-700">Drop-in</a>
                         </div>
                 </div>
             </div>
