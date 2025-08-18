@@ -1,12 +1,39 @@
-# React + Vite
+# Dreamy Essence Cafe landing page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Dreamy Essence Preview](src/assets/dreamy_essence_preview.png)
 
-Currently, two official plugins are available:
+A minimalist, calming landing page for a specialty coffee shop focused on serene experiences. Built with React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Adapts seamlessly from mobile to desktop
+- **Atmospheric Sections**:
+  - Hero with mood-setting typography
+  - Coffee menu with horizontal scrolling
+  - Owner's note with custom dividers
+- **Accessibility Focused**: Keyboard navigable
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/l-auta/dreamy-essence.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run development server:
+```bash
+npm run dev
+```
+3. Build for production:
+```bash
+npm run build
+```
+
+## 📝 License
+MIT License - see LICENSE
+
+###  Brewed With Precision 🔬
+
