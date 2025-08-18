@@ -21,7 +21,7 @@ function Note (){
 
 function DropIn() {
     return (
-        <>
+        <div id="drop-in">
             <Note />
             <div className="mt-10">
                 <div className="flex sm:flex-nowrap flex-wrap gap-9 sm:justify-around items-center bg-rose-100 border border-amber-900 p-8">
@@ -37,7 +37,7 @@ function DropIn() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

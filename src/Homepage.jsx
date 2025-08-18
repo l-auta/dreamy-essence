@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="bg-white shadow">
             <div className="px-4 sm:px-6 lg:px-8"> {/* for the sake of media responsiveness .....(was there initially causing the nav to be halfway) max-w-7xl*/}
-                <div className="flex items-center justify-between h-15"> {/* the layout of the navbar*/}
+                <div className="flex items-center justify-between h-16"> {/* the layout of the navbar*/}
                     <div className="sm:flex hidden items-center">
                         <img
                             className="h-16 sm:w-18"
@@ -15,10 +15,10 @@ function Navbar() {
                         </div>
                    
                         <div className="flex space-x-3 md:space-x-6 md:text-xl font-medium">
-                            <span className="text-amber-900">Home</span>
-                            <span className="text-amber-900">Our way</span>
-                            <span className="text-amber-900">Highlights</span>
-                            <span className="text-amber-900">Drop-in</span>
+                            <a href="#home" className="text-amber-900 active:text-red-200">Home</a>
+                            <a href="#our-way" className="text-amber-900 active:text-red-200">Our way</a>
+                            <a href="#highlights" className="text-amber-900 active:text-red-200">Highlights</a>
+                            <a href="#drop-in" className="text-amber-900 active:text-red-200">Drop-in</a>
                         </div>
                 </div>
             </div>
@@ -28,16 +28,16 @@ function Navbar() {
 
 function Homepage() {
   return (
-    <>
+    <div id="home">
     <Navbar />
-    <div class="relative sm:h-140 h-100 overflow-hidden">
+    <div class="relative sm:h-160 h-100 overflow-hidden">
         <img 
             src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
             alt="Background"
             class="absolute inset-0 w-full h-full object-cover blur-md"
         />
   
-        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="absolute inset-0 bg-black/30"></div>
 
         <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center p-4">
             <h2 class="sm:text-8xl text-3xl sm:mt-2 font-bold text-white">
@@ -51,7 +51,7 @@ function Homepage() {
             </button>
         </div>
     </div>
-    </>
+    </div>
   );
 }
 

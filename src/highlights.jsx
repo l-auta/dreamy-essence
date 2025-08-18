@@ -2,7 +2,7 @@ import React from "react";
 
 function Highlights() {
     return (
-        <div className="my-10 p-5">
+        <div id="highlights" className="my-10 p-5">
             <h2 className="text-center text-3xl font-bold text-amber-900 mb-5">Our Menu Highlights</h2>
             <div className="overflow-x-auto  py-4 hide-scrollbar md:p-10"> 
                 <div className="inline-flex gap-9"> 
