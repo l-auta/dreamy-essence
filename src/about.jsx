@@ -30,17 +30,16 @@ function WhyUs() {
 
 function OurWay() {
     return(
-        <div id="our-way">
-            <div className="md:mt-30 md:mb-10 my-5 text-amber-900 ">
-                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-30 m-5 py-3">
-                    <p className="md:text-xl">Dreamy Essence is a quiet little café with a big love for calm moments. We’ve kept our space intentionally clean and cozy — white walls, soft tones, and natural textures that let your thoughts settle. It is a place where you can come as you are, and just be.</p>
-                    <img className="md:w-150 w-70 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
-                </div>
-                <div className="sm:flex hidden items-center justify-between gap-5 md:gap-20 m-5 py-4">
-                    <img className="md:w-150 w-70 rounded-lg" src="src/assets/images/Leonardo_Kino_XL_A_single_wooden_table_in_a_cozy_white_cafe_wi_3.jpg" alt="serving-pic" /> 
-                    <p className="md:text-xl p-4">Our menu is small, but thoughtful — every drink and treat made with care. No noise, no rush. Just comfort, good coffee, and a warm hello behind the counter. We hope you leave feeling lighter than when you came in.</p>
-                </div>
-                
+        <div id="our-way" className="my-20">
+            <div className="hidden sm:block md:mt-20 md:mb-15 my-5 px-5 text-amber-900 ">
+                <img className="md:w-160 w-70 m-5 rounded-lg float-right" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
+                <p className="hidden lg:block md:text-xl p-5 m-5">
+                     Dreamy Essence is a quiet little café with a big love for calm moments. From the first sip of your coffee to the gentle hum of conversation in the background, every detail here has been thoughtfully designed to wrap you in a sense of ease. We’ve kept our space intentionally clean and cozy—white walls that reflect the morning light, soft earthy tones that soothe the mind, and natural textures like warm wood and linen that invite you to linger. The air carries the comforting aroma of freshly brewed coffee and homemade pastries, while the soft clink of ceramic cups and the occasional rustle of pages turning in a book create a rhythm that feels like a quiet exhale. This is more than just a café; it’s a pause in your day. A place where time slows just enough for you to settle into your thoughts, unwind with a friend, or simply watch the world go by. There are no loud distractions here—just the warmth of good coffee, the comfort of a well-worn chair, and the gentle encouragement to come as you are and just be. Whether you’re here to start your morning with intention, steal a quiet afternoon for yourself, or find a cozy corner to daydream in, we hope Dreamy Essence feels like a small refuge—a place where the outside world softens, even if just for a little while. After all, the best moments often happen when you allow yourself the space to enjoy them. So take a seat, take your time. We’re so glad you’re here.
+                </p>
+
+                <p className="hidden sm:block lg:hidden md:text-xl p-5 m-5">
+                    Dreamy Essence is a quiet little café designed for calm moments. White walls and soft natural textures create a space where you can slow down and breathe. The air carries the aroma of freshly brewed coffee and baked goods, while sunlight filters through the windows, inviting you to stay awhile. This is more than just a café—it's a place to pause. Where the clink of cups and rustle of book pages become a gentle soundtrack to your thoughts.
+                </p>
             </div>
             <WhyUs />
         </div>
