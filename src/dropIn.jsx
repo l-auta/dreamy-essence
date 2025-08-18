@@ -2,7 +2,7 @@ import React from "react";
 
 function Note (){
     return (
-        <div class="max-w-5xl mx-auto my-12 px-4 relative">
+        <div class="max-w-5xl mx-auto my-19 px-4 relative">
             <div class="relative flex items-center justify-center my-8">
                 <div class="flex-grow border-t border-amber-900"></div>
                     <span class="flex-shrink mx-4 text-3xl">☁️</span>
@@ -23,8 +23,8 @@ function DropIn() {
     return (
         <>
             <Note />
-            <div>
-                <div className="flex gap-9 justify-around items-center bg-rose-100 border border-amber-900 p-8">
+            <div className="mt-10">
+                <div className="flex sm:flex-nowrap flex-wrap gap-9 sm:justify-around items-center bg-rose-100 border border-amber-900 p-8">
                     <div>
                         <h2 className="text-2xl font-bold text-amber-900 mb-4">Location</h2>
                         <p className="text-amber-900">📍 12 Garden Lane, Westview, Nairobi</p>
