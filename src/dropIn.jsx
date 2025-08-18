@@ -23,7 +23,20 @@ function DropIn() {
     return (
         <>
             <Note />
-            
+            <div>
+                <div className="flex gap-9 justify-around items-center bg-rose-100 border border-amber-900 p-8">
+                    <div>
+                        <h2 className="text-2xl font-bold text-amber-900 mb-4">Location</h2>
+                        <p className="text-amber-900">📍 12 Garden Lane, Westview, Nairobi</p>
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-bold text-amber-900 mb-4">Opening Hours</h2>
+                        <p className="text-amber-900 mt-4">🕰️ Mon–Fri: 8AM – 6PM</p>
+                        <p className="text-amber-900 mt-4">🌸 Sat–Sun: 9AM – 4PM</p>
+                        <p className="text-amber-900 mt-4">🚪 Closed on public holidays</p>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
