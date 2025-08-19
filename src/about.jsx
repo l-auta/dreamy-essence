@@ -1,4 +1,5 @@
 import "./App.css";
+import aboutpic from "./assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg";
 import React from "react";
 
 function WhyUs() {
@@ -32,7 +33,7 @@ function OurWay() {
     return(
         <div id="our-way" className="my-20 select-none">
             <div className="hidden sm:block md:mt-20 md:mb-15 my-5 px-5 text-amber-900 ">
-                <img className="md:w-160 w-70 m-5 rounded-lg float-right" src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg" alt="cafe-pic" />
+                <img className="md:w-160 w-70 m-5 rounded-lg float-right" src={aboutpic} alt="cafe-pic" />
                 <p className="hidden lg:block md:text-xl p-5 m-5">
                      Dreamy Essence is a quiet little café with a big love for calm moments. From the first sip of your coffee to the gentle hum of conversation in the background, every detail here has been thoughtfully designed to wrap you in a sense of ease. We’ve kept our space intentionally clean and cozy—white walls that reflect the morning light, soft earthy tones that soothe the mind, and natural textures like warm wood and linen that invite you to linger. The air carries the comforting aroma of freshly brewed coffee and homemade pastries, while the soft clink of ceramic cups and the occasional rustle of pages turning in a book create a rhythm that feels like a quiet exhale. This is more than just a café; it’s a pause in your day. A place where time slows just enough for you to settle into your thoughts, unwind with a friend, or simply watch the world go by. There are no loud distractions here—just the warmth of good coffee, the comfort of a well-worn chair, and the gentle encouragement to come as you are and just be. Whether you’re here to start your morning with intention, steal a quiet afternoon for yourself, or find a cozy corner to daydream in, we hope Dreamy Essence feels like a small refuge—a place where the outside world softens, even if just for a little while. After all, the best moments often happen when you allow yourself the space to enjoy them. So take a seat, take your time. We’re so glad you’re here.
                 </p>
