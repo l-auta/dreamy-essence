@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/cafe Logos-2-Design_two.png";
+import  homebg from "./assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg";
 import './App.css';
 
 function Navbar() {
@@ -12,6 +13,7 @@ function Navbar() {
                             className="h-16 sm:w-18"
                             src={logo}
                             alt="Dreamy Essence Logo"
+                            loading="lazy"
                         /> 
                         </div>
                    
@@ -33,9 +35,10 @@ function Homepage() {
     <Navbar />
     <div class="relative sm:h-160 h-100 overflow-hidden select-none">
         <img 
-            src="src/assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg" 
+            src={homebg} 
             alt="Background"
             class="absolute inset-0 w-full h-full object-cover blur-md"
+            loading="lazy"
         />
   
         <div class="absolute inset-0 bg-black/30"></div>
