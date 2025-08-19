@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./assets/cafe Logos-2-Design_two.png";
 import './App.css';
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
                     <div className="sm:flex hidden items-center">
                         <img
                             className="h-16 sm:w-18"
-                            src="src/assets/cafe Logos-2-Design_two.png"
+                            src={logo}
                             alt="Dreamy Essence Logo"
                         /> 
                         </div>
