@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 import React from 'react'
 import Homepage from './Homepage.jsx';
 import OurWay from './about.jsx';

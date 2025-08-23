@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./assets/cafe Logos-2-Design_two.png";
 import  homebg from "./assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_war_2.jpg";
-import './App.css';
+// import './App.css';
 
 function Navbar() {
     return (

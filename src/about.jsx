@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import aboutpic from "./assets/images/Leonardo_Kino_XL_Minimalist_cafe_interior_with_white_walls_and_0.jpg";
 import React from "react";
 
