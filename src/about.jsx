@@ -7,7 +7,7 @@ function WhyUs() {
         <>
             <div className="sm:py-4 sm:bg-rose-100">
                 <h2 className=" sm:m-10 m-5 text-center text-3xl font-bold text-amber-900">Why Choose Us? <span class="material-symbols-outlined ">check_circle</span></h2>
-                <div className="flex flex-col  sm:flex-row justify-around items-center gap-x-5 md:divide-x-2 text-amber-900">
+                <div className="flex flex-col sm:flex-row justify-around items-center gap-x-5 text-amber-900 lg:text-xl pb-2">
                     <div className="flex flex-col items-center p-4 text-center">
                         <span class="material-symbols-outlined">sunny</span>
                         <h2 className="pb-3 font-semibold">Calm Atmosphere</h2>
@@ -42,7 +42,7 @@ function OurWay() {
                     Dreamy Essence is a quiet little café designed for calm moments. White walls and soft natural textures create a space where you can slow down and breathe. The air carries the aroma of freshly brewed coffee and baked goods, while sunlight filters through the windows, inviting you to stay awhile. This is more than just a café—it's a place to pause. Where the clink of cups and rustle of book pages become a gentle soundtrack to your thoughts.
                 </p>
             </div> */}
-            <div className="hidden sm:block my-5 px-7 text-amber-900">
+            <div className="hidden sm:block my-5 px-14 text-amber-900">
                 {/* Container to center and constrain the text width */}
                 <div className=" mx-auto"> {/* This centers content  */}
                     <p className="hidden lg:block text-xl p-5 leading-relaxed text-center"> {/* Added leading-relaxed for better readability */}
