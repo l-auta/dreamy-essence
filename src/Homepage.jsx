@@ -33,12 +33,12 @@ function Homepage() {
   return (
     <div id="home">
     <Navbar />
-    <div class="relative sm:h-[760px] h-[400px] overflow-hidden select-none">
+    <div class="relative sm:h-[780px] h-[400px] overflow-hidden select-none">
         <img 
             src={homebg} 
             alt="Background"
             class="absolute inset-0 w-full h-full object-cover blur-md"
-            loading="lazy"
+            loading="eager"
         />
   
         <div class="absolute inset-0 bg-black/30"></div>
@@ -60,3 +60,5 @@ function Homepage() {
 }
 
 export default Homepage;
+
+
