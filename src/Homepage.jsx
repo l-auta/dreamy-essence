@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className="bg-white shadow">
             <div className="px-4 sm:px-6 lg:px-8"> {/* for the sake of media responsiveness .....(was there initially causing the nav to be halfway) max-w-7xl*/}
-                <div className="flex items-center justify-between h-16"> {/* the layout of the navbar*/}
+                <div className="flex items-center justify-center sm:justify-between sm:h-[72px] h-14"> {/* the layout of the navbar*/}
                     <div className="sm:flex hidden items-center">
                         <img
                             className="h-16 sm:w-18"
@@ -17,7 +17,7 @@ function Navbar() {
                         /> 
                         </div>
                    
-                        <div className="flex space-x-3 md:space-x-6 md:text-xl font-medium">
+                        <div className="flex sm:justify-normal justify-center space-x-3 md:space-x-6 md:text-2xl font-medium">
                             <a href="#home" className="text-amber-900 active:text-amber-700">Home</a>
                             <a href="#our-way" className="text-amber-900 active:text-amber-700">Our way</a>
                             <a href="#highlights" className="text-amber-900 active:text-amber-700">Highlights</a>
@@ -33,7 +33,7 @@ function Homepage() {
   return (
     <div id="home">
     <Navbar />
-    <div class="relative sm:h-160 h-100 overflow-hidden select-none">
+    <div class="relative sm:h-[760px] h-[400px] overflow-hidden select-none">
         <img 
             src={homebg} 
             alt="Background"
@@ -44,13 +44,13 @@ function Homepage() {
         <div class="absolute inset-0 bg-black/30"></div>
 
         <div class="relative z-10 h-full flex flex-col gap-y-5 justify-center items-center p-4">
-            <h2 class="sm:text-8xl text-3xl sm:mt-2 font-bold text-white">
+            <h2 class="sm:text-9xl text-3xl sm:mt-2 font-bold text-white">
                 Sip. <span class="text-red-200">Savor.</span> Stay a while.
             </h2>
-            <p class="sm:text-xl mt-3 text-center text-white">
+            <p class="sm:text-2xl mt-3 text-center text-white">
                 Dreamy essence is your cozy hideaway for calm moments and sweet treats.
             </p>
-            <a href="#highlights" class="mt-4 px-4 py-2 bg-red-200 active:bg-red-100 text-black rounded-lg">
+            <a href="#highlights" class="mt-4 px-4 py-2 sm:text-xl bg-red-200 active:bg-red-100 text-black rounded-lg">
                 See what's brewing
             </a>
         </div>
