@@ -33,7 +33,7 @@ function Homepage() {
   return (
     <div id="home">
     <Navbar />
-    <div class="relative sm:h-[780px] h-[400px] overflow-hidden select-none">
+    <div class="relative sm:h-[800px] h-[400px] overflow-hidden select-none">
         <img 
             src={homebg} 
             alt="Background"
