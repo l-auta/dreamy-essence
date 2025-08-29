@@ -11,7 +11,7 @@ function Highlights() {
             <h2 className="text-center text-3xl font-bold text-amber-900 mb-5">Our Menu Highlights</h2>
             <div className="overflow-x-auto  py-4 hide-scrollbar md:p-10"> 
                 <div className="inline-flex md:gap-9 gap-4 "> 
-                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[450px] w-[300px] rounded-xl">
+                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[400px] w-[300px] rounded-xl">
                         <img 
                             src={latte} 
                             alt="Latte" 
@@ -22,7 +22,7 @@ function Highlights() {
                         <p className="text-amber-900 text-center">Smooth espresso and velvety milk, finished with gentle latte art — a classic hug in a cup.</p>
                     </div>
 
-                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[450px] w-[300px] rounded-xl">
+                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[400px] w-[300px] rounded-xl">
                         <img 
                             src={strawberryCake} 
                             alt="Strawberry shortcake" 
@@ -33,7 +33,7 @@ function Highlights() {
                         <p className="text-amber-900 text-center">Layers of soft sponge, fresh cream, and sweet strawberries — light and dreamy.</p>
                     </div>
 
-                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[450px] w-[300px] rounded-xl">
+                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[400px] w-[300px] rounded-xl">
                         <img 
                             src={hotChocolate} 
                             alt="Hot chocolate" 
@@ -44,7 +44,7 @@ function Highlights() {
                         <p className="text-amber-900 text-center">Rich cocoa topped with pillowy marshmallows — perfect for quiet afternoons.</p>
                     </div>
 
-                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[450px] w-[300px] rounded-xl">
+                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[400px] w-[300px] rounded-xl">
                         <img 
                             src={macaroons} 
                             alt="Pastel macaroons" 
@@ -55,7 +55,7 @@ function Highlights() {
                         <p className="text-amber-900 text-center">Light and crisp on the outside, soft and sweet inside — delicate flavors in dreamy colors.</p>
                     </div>
 
-                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[450px] w-[300px]  rounded-xl">
+                    <div className="snap-center flex flex-col items-center p-4 shadow-lg sm:w-[400px] w-[300px]  rounded-xl">
                         <img 
                             src={matchaLatte} 
                             alt="Iced matcha latte" 
